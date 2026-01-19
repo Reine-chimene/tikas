@@ -1,0 +1,30 @@
+:root {
+  --tikar-red: #8B0000;    /* Rouge terre de Sienne */
+  --tikar-gold: #D4AF37;   /* Or royal */
+  --tikar-green: #228B22;  /* Vert forêt */
+  --tikar-black: #1A1A1A;  /* Noir profond */
+  --tikar-cream: #FDF5E6;  /* Fond ivoire pour la lisibilité */
+}
+
+body {
+  background-color: var(--tikar-cream);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--tikar-black);
+}
+
+.navbar-tikar {
+  background-color: var(--tikar-black);
+  border-bottom: 3px solid var(--tikar-gold);
+}
+
+.btn-tikar-gold {
+  background-color: var(--tikar-gold);
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-tikar-gold:hover {
+  background-color: #b8962e;
+  color: white;
+}
